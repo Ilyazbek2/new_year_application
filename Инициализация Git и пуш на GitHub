@@ -2,3 +2,8 @@ cd /path/to/new_year_application
 git init
 git add .
 git commit -m "Initial commit: project ready for GitHub"
+
+
+git remote add origin https://github.com/<username>/new_year_countdown.git
+git branch -M main
+git push -u origin main
