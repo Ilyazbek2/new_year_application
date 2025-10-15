@@ -1,5 +1,3 @@
-cd /path/to/new_year_application
-
 
 git init
 git add .
