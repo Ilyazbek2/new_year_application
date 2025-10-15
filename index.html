@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>New Year Countdown</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+<div id="Header">
+    <h1>New Year Countdown!</h1>
+</div>
+<div id="Content">
+    <div class="countdown styled"></div>
+</div>
+
+<!-- Scripts -->
+<script src="/static/js/snowstorm.js"></script>
+<script src="/static/js/jquery-1.9.1.min.js"></script>
+<script src="/static/js/backstretch.js"></script>
+<script src="/static/js/jquery.countdown.js"></script>
+<script src="/static/js/global.js"></script>
+<script>
+    $(function() {
+        $('.countdown').countdown({
+            date: "June 7, 2087 15:03:26"
+        });
+    });
+</script>
+</body>
+</html>
